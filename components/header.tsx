@@ -51,18 +51,6 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
-      <div className="flex items-center justify-end space-x-2">
-        <a
-          target="_blank"
-          href="https://github.com/bklieger-groq/groq-gen-ui/"
-          rel="noopener noreferrer"
-          className={cn(buttonVariants({ variant: 'outline' }))}
-          style={{ borderRadius: 0 }}
-        >
-          <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
-        </a>
-      </div>
     </header>
   )
 }
