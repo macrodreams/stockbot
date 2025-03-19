@@ -19,8 +19,8 @@ async function UserOrLogin() {
         {/* <IconGroq className="size-6 mr-2 dark:hidden" />
           <IconGroq className="hidden size-6 mr-2 dark:block" /> */}
         <Image
-          src="/groqlabs-logo-black.png"
-          alt="GroqLabs Logo"
+          src="/valueinvesting-logo.png"
+          alt="ValueInvesting Logo"
           width={100}
           height={30}
         />
